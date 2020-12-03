@@ -2,7 +2,7 @@
 
 Using docker-compose to deploy Nginx as HTTP webserver and uWSGI as application server for simple Flask Python project.
 
-***Browser <-> Nginx <-> uWSGI <-> Flask-app***
+***Browser ⟷ Nginx ⟷ uWSGI ⟷ Flask-app***
 
 RUN:
 ```
