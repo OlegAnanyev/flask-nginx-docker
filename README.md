@@ -13,4 +13,6 @@ docker-compose up --build
 OPEN:
 ```
 http://localhost:8080
+or
+http://your-server-ip:8080
 ```
