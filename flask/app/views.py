@@ -9,6 +9,6 @@ def index():
     app_name = os.getenv("APP_NAME")
     date_time = datetime.today()
     if app_name:
-        return f"Hello from {app_name} running in a Docker container behind Nginx!</br>{date_time}</br><img src='https://ananyev.me/images/profile-img.jpg'>"
+        return f"Hello from {app_name} running in a Docker container behind Nginx!</br>{date_time}</br><img src='https://ananyev.me/images/profile-img.jpg' width='500' height='500'>"
 
     return "Hello from Flask"
